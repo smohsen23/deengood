@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: helvetica;
 }
 
 header {
@@ -8,6 +9,11 @@ header {
   position:fixed;
   width:100%;
   z-index:1;
+}
+
+.logo{
+  width:150px;
+  height:150px;
 }
 
 nav {
@@ -60,11 +66,17 @@ footer p {
 }
 
 .jumbotron {
-  background-image:url('hands.png ');
+  background-image:url(purple.png);
   background-repeat: no-repeat;
   background-size:cover;
   height:800px;
 
+
+}
+
+.all{
+
+  margin-bottom: 100px;
 
 }
 
@@ -150,4 +162,8 @@ footer p {
 .jumbotron h2 {
   bottom:20px;
   color:blue;
+}
+.feet{
+  width:50px;
+  height:50px;
 }
